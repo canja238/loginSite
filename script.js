@@ -24,7 +24,7 @@ function signup() {
     console.log("Stored Password:", localStorage.getItem('userPassword'));
 
     // Redirect to the login page
-    window.location.href = 'index.html';
+
 }
 
 // Function to handle login
@@ -42,7 +42,7 @@ function login() {
 
     // Validate credentials
     if (email === storedEmail && password === storedPassword) {
-        alert("Login successful!");
+       console.log("Login successful!");
         window.location.href="main.html";
     } else {
         alert("Invalid email or password. Please try again.");
