@@ -4,8 +4,211 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <body>
+    <style>
+        *{
+            margin: 0;
+ 
+        }
+
+
+        .about {
+            flex-direction: row;
+            align-items: center;
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 20px;
+            height: 200px;
+            padding: 20px;
+            margin-right: 20px;
+
+        }
+         .skills {
+            flex-direction: row;
+            align-items: center;
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 20px;
+            height: 200px;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        .certificate {
+            flex-direction: row;
+            align-items: center;
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 20px;
+            height: 200px;
+            padding: 20px;
+            margin-right: 20px;
+        }
+         .interest{
+            flex-direction: row;
+            align-items: center;
+            background-color: aqua;
+            border: 2px solid black;
+            border-radius: 20px;
+            height: 200px;
+            padding: 20px;
+            margin-right: 20px;
+
+        }
+
+
+        .profile{
+            margin-left: 205px;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+        .profile:hover{
+            margin-left: 0;
+            padding-left: 20px;
+            border-radius: 5px;
+
+
+        }
+        .aside{
+            background-color:rgb(6, 6, 94);
+            height: 100vh;
+            width: 200px;
+            float: left;
+            position: fixed;
+            border-right: 2px solid black;
+            opacity: 0;
+
+        }
+
+        .aside:hover{
+            opacity: 1;
+            transition: 1s;
+        }
+
+
+
+
+
+        .image{
+            margin: 20px;
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            border: 2px solid black;
+        }
+
+        .image:hover{
+            border-radius: 5px;
+            rotate: -10deg;
+            translate: 1.5rem;
+            border: 2px solid black;
+
+   
+        }
+        .nav a{
+            display: flex;
+            background-color: aliceblue;
+            color: black;
+            padding: 10px;
+
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+            text-decoration: none;
+
+        }
+
+
+        a:hover{
+            background-color: black;
+            color: white;
+            transform: scale(1.2);
+            transition: .5s;
+            border-radius: 5px;
+            rotate: -6deg;
+            translate: 1.5rem;
+            animation:1s changecolor;
+        }
+
+
+
+
+
+
+    </style>
+
+    <div class="aside">
     <input type="image" class="image" src="image.png">
+
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="signup.html">About</a>
+        <a href="#">Skills</a>
+        <a href="#">Certificate</a>
+     
+    </nav>
+    </div>
+
+<div class="profile">
+
+    <div class="about">
+        <h1>ABOUT ME</h1>
+
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+            dadsassdadadassdsa
+
+    </div>
+
+    <div class="skills">
+        <h1>SKILLS</h1>
+        <ul>
+            <li>Microsoft Excel</li>
+            <li>Basic Programming</li>
+            <li>DataBase Programming</li>
+            <li>Embedded System</li>
+          </ul>
+    </div>
+
+    <div class="certificate">
+        <h1>CERTIFICATE</h1>
+        <ul>
+            <li>Startup 101 workshop</li>
+            <li>8th ICpEP.se Regional Convention</li>
+            <li>Artificial Intelligence</li>
+            <li>Latest Emerging Technology</li>
+            <li>3rd International Convention and<br>
+          11th National Convention of the ICpEP</li>
+          <li>7th ICpEP.se Regional Convention</li>
+          <li>National Certificate II - Computer <br>
+          System Oppotunities</li>
+          </ul>
+    </div>
+
+    <div class="interest">
+        <h1>INTEREST</h1>
+        <ul>
+            <li>Games</li>
+            <li>Movies</li>
+            <li>Music</li>
+            <li>Animals</li>
+          </ul>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
